@@ -1,5 +1,5 @@
 import UIKit
-import Whisper
+import Whistle
 
 class ViewController: UIViewController {
 
@@ -128,7 +128,7 @@ class ViewController: UIViewController {
     guard let navigationController = navigationController else { return }
     let message = Message(title: "This message will silent in 3 seconds.", backgroundColor: UIColor(red:0.89, green:0.09, blue:0.44, alpha:1))
 
-    Whisper.show(whisper: message, to: navigationController, action: .present)
+    Whistle.show(whisper: message, to: navigationController, action: .present)
     hide(whisperFrom: navigationController, after: 3)
   }
 
@@ -136,7 +136,7 @@ class ViewController: UIViewController {
     guard let navigationController = navigationController else { return }
 
     let message = Message(title: "Showing all the things.", backgroundColor: UIColor.black)
-    Whisper.show(whisper: message, to: navigationController)
+    Whistle.show(whisper: message, to: navigationController)
   }
 
   @objc func presentPermanentButtonDidPress(_ button: UIButton) {
@@ -144,14 +144,14 @@ class ViewController: UIViewController {
 
     let message = Message(title: "This is a permanent Whisper.", textColor: UIColor(red:0.87, green:0.34, blue:0.05, alpha:1),
       backgroundColor: UIColor(red:1.000, green:0.973, blue:0.733, alpha: 1))
-    Whisper.show(whisper: message, to: navigationController, action: .present)
+    Whistle.show(whisper: message, to: navigationController, action: .present)
   }
 
   @objc func presentNotificationDidPress(_ button: UIButton) {
     let announcement = Announcement(title: "Ramon Gilabert", subtitle: "Vadym Markov just commented your post: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'", image: UIImage(named: "avatar"), duration: 30)
 
     if let navigationController = navigationController {
-      Whisper.show(shout: announcement, to: navigationController, completion: {
+      Whistle.show(shout: announcement, to: navigationController, completion: {
         print("The shout was silent.")
       })
     }
@@ -166,7 +166,7 @@ class ViewController: UIViewController {
     let murmur = Murmur(title: "This is a small whistle...",
       backgroundColor: UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1))
 
-    Whisper.show(whistle: murmur)
+    Whistle.show(whistle: murmur)
   }
 
   @objc func presentWhistleButtonDidPress(_ button: UIButton) {
@@ -174,7 +174,7 @@ class ViewController: UIViewController {
                         backgroundColor: UIColor.red,
                         titleColor: UIColor.white)
 
-    Whisper.show(whistle: murmur, action: .present)
+    Whistle.show(whistle: murmur, action: .present)
   }
 
   // MARK - Configuration

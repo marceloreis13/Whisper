@@ -1,0 +1,6 @@
+framework module Whistle {
+  umbrella header "Whistle-umbrella.h"
+
+  export *
+  module * { export * }
+}

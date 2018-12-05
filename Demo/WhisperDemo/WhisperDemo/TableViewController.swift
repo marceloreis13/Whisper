@@ -1,5 +1,5 @@
 import UIKit
-import Whisper
+import Whistle
 
 class TableViewController: UITableViewController {
 
@@ -30,7 +30,7 @@ class TableViewController: UITableViewController {
     guard let navigationController = navigationController else { return }
     let message = Message(title: "This message will silent in 3 seconds.", backgroundColor: UIColor(red:0.89, green:0.09, blue:0.44, alpha:1))
 
-    Whisper.show(whisper: message, to: navigationController, action: .present)
+    Whistle.show(whisper: message, to: navigationController, action: .present)
     hide(whisperFrom: navigationController, after: 3)
   }
 

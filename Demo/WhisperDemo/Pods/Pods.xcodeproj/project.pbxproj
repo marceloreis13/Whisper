@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B620EB0AD39352F96AD527733747FE4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCE64E5898D700BA4D3C582BFD32AA /* Config.swift */; };
+		4B9BD9053C2F57F522E63F2B7284CA52 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7688DEE3D6BF7420F645CABA21C7421 /* Message.swift */; };
+		50FBC9536DA7C1375E87AF335D8DB8CA /* Whistle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1EA285CD87491F7679B7CCAD11734A /* Whistle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A81FDF1C31AE041108D359779FDADD /* ColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6257B0C8195F3A02FC44EF0C7E9C9E6 /* ColorList.swift */; };
+		8FA996B1B88660DD32C28B23F9A27A51 /* WhisperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72EC4D1E67B7DB5A5922E3493FF3A3 /* WhisperView.swift */; };
+		908EBE91D7D25D9997D58C1FB79BB1D7 /* WhistleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FDE692EAAF81A4A482ABE9E51A7D5 /* WhistleFactory.swift */; };
+		ACDE368EA5A3C63B5661792988C4A335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		AE4F58E84D089AB75ABA347DC487BD18 /* FontList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F17CA1E161916F1A10DD0BB720BCF3E /* FontList.swift */; };
+		B1D8AF3A39379978391D946A923EFD87 /* ShoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A402531EC15FB99923EC06B3044CB /* ShoutFactory.swift */; };
+		B530ACA899D5AAB0CBEECF120D3AD402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		B71013256A696231BBD1679F7BA121D8 /* Whistle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CA5A2BAE4D957EA0D669F3E911CB4 /* Whistle-dummy.m */; };
+		C578774BB0C1D1902BF1516A38BE0634 /* Showing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84A624F79183D9E00FC24150E01B20 /* Showing.swift */; };
+		DAC7A90BE185D577BCF3DA6DA4DEF908 /* WhisperFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB50B5153D570166E6CF18032CE3D9 /* WhisperFactory.swift */; };
+		ECD25815CBEBEEE493DCB6810843277A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C551B0A86849B4637CCD597BA026F6 /* UIView+Extensions.swift */; };
+		F4A706AD4217DC61FE312374E7837F57 /* Pods-WhisperDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D44325EF5C73DF4D120DD452236BE9E0 /* Pods-WhisperDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC3C7E60435C3524BF0ACFB13297116D /* Pods-WhisperDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E031BD9F5EB00FEB3485ADD93450117 /* Pods-WhisperDemo-dummy.m */; };
+		FD9087CE64882C0DBC0D82E84911E4FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB42A286ABFB9D384DAD314683AE11C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C049004E74F476F2D5D72EF35473D2B;
+			remoteInfo = Whistle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021CA5A2BAE4D957EA0D669F3E911CB4 /* Whistle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Whistle-dummy.m"; sourceTree = "<group>"; };
+		0E031BD9F5EB00FEB3485ADD93450117 /* Pods-WhisperDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhisperDemo-dummy.m"; sourceTree = "<group>"; };
+		16DB50B5153D570166E6CF18032CE3D9 /* WhisperFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhisperFactory.swift; path = Source/WhisperFactory.swift; sourceTree = "<group>"; };
+		1B4FAFCF784374F38752E9DCEAEA2EC4 /* Pods-WhisperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhisperDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1C4A402531EC15FB99923EC06B3044CB /* ShoutFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShoutFactory.swift; path = Source/ShoutFactory.swift; sourceTree = "<group>"; };
+		1F17CA1E161916F1A10DD0BB720BCF3E /* FontList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontList.swift; sourceTree = "<group>"; };
+		213920C11AC528FE714B27E11D4F4295 /* Pods-WhisperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhisperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2269FA4149DFBDAA3050F3BBF23BBF01 /* Pods-WhisperDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		285796142D7E009ABACE82C8FAE2F5B4 /* Whistle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Whistle.modulemap; sourceTree = "<group>"; };
+		2B6F012365CAFFCB921343FC6338BFE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		469547F469D3A5B7D562DEC18C26728B /* Whistle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Whistle-prefix.pch"; sourceTree = "<group>"; };
+		5DB391EC9687C17FC85454E6CA5544CD /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		629D435605390A979C5EE75233C94201 /* Pods-WhisperDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhisperDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68707EACD2604E6629EA2DBFF16770EA /* Pods-WhisperDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhisperDemo.modulemap"; sourceTree = "<group>"; };
+		6F1EA285CD87491F7679B7CCAD11734A /* Whistle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Whistle-umbrella.h"; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8842EA39BF2958B8108CB088470C5C1B /* Pods-WhisperDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhisperDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8C45C13F68C9870471BEB88E57B19877 /* Whistle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Whistle-Info.plist"; sourceTree = "<group>"; };
+		8E8CD66875DBA7BF11D2BE893DFF5088 /* Pods-WhisperDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperDemo-Info.plist"; sourceTree = "<group>"; };
+		9F72EC4D1E67B7DB5A5922E3493FF3A3 /* WhisperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhisperView.swift; path = Source/WhisperView.swift; sourceTree = "<group>"; };
+		A3391D6B24DF8EB1C25DD4E350AC726D /* Whistle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Whistle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A548C964D7373A5F65EC83EE61991A53 /* Whistle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Whistle.xcconfig; sourceTree = "<group>"; };
+		A6257B0C8195F3A02FC44EF0C7E9C9E6 /* ColorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorList.swift; sourceTree = "<group>"; };
+		AC8FDE692EAAF81A4A482ABE9E51A7D5 /* WhistleFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhistleFactory.swift; path = Source/WhistleFactory.swift; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC84A624F79183D9E00FC24150E01B20 /* Showing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Showing.swift; path = Source/Showing.swift; sourceTree = "<group>"; };
+		C7688DEE3D6BF7420F645CABA21C7421 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Source/Message.swift; sourceTree = "<group>"; };
+		D44325EF5C73DF4D120DD452236BE9E0 /* Pods-WhisperDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhisperDemo-umbrella.h"; sourceTree = "<group>"; };
+		D4FCE64E5898D700BA4D3C582BFD32AA /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Source/Config.swift; sourceTree = "<group>"; };
+		E2A542B9F28BB53A7B52DFABE724810C /* Whistle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Whistle.framework; path = Whistle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C551B0A86849B4637CCD597BA026F6 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Source/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F732E617FE1E456970C6653B067A3ED7 /* Pods_WhisperDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhisperDemo.framework; path = "Pods-WhisperDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E49B94F69DDAED4220CC230F28DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B530ACA899D5AAB0CBEECF120D3AD402 /* Foundation.framework in Frameworks */,
+				FD9087CE64882C0DBC0D82E84911E4FE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E8A9D785C252BABD25BB3F9B102E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDE368EA5A3C63B5661792988C4A335 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		23C6191F1A2C69DFFDAB5EDDFB94458C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3677FB9789ADA051E91F88C43E25FC49 /* Whistle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3677FB9789ADA051E91F88C43E25FC49 /* Whistle */ = {
+			isa = PBXGroup;
+			children = (
+				D4FCE64E5898D700BA4D3C582BFD32AA /* Config.swift */,
+				C7688DEE3D6BF7420F645CABA21C7421 /* Message.swift */,
+				1C4A402531EC15FB99923EC06B3044CB /* ShoutFactory.swift */,
+				BC84A624F79183D9E00FC24150E01B20 /* Showing.swift */,
+				E3C551B0A86849B4637CCD597BA026F6 /* UIView+Extensions.swift */,
+				16DB50B5153D570166E6CF18032CE3D9 /* WhisperFactory.swift */,
+				9F72EC4D1E67B7DB5A5922E3493FF3A3 /* WhisperView.swift */,
+				AC8FDE692EAAF81A4A482ABE9E51A7D5 /* WhistleFactory.swift */,
+				B2975D14035424B558C285C9567D0241 /* Configuration */,
+				998104F286C175F7A225F635BC3DC1A6 /* Pod */,
+				37DAB6DB7625D29BEFED21AD522BF14D /* Support Files */,
+			);
+			name = Whistle;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		37DAB6DB7625D29BEFED21AD522BF14D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				285796142D7E009ABACE82C8FAE2F5B4 /* Whistle.modulemap */,
+				A548C964D7373A5F65EC83EE61991A53 /* Whistle.xcconfig */,
+				021CA5A2BAE4D957EA0D669F3E911CB4 /* Whistle-dummy.m */,
+				8C45C13F68C9870471BEB88E57B19877 /* Whistle-Info.plist */,
+				469547F469D3A5B7D562DEC18C26728B /* Whistle-prefix.pch */,
+				6F1EA285CD87491F7679B7CCAD11734A /* Whistle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/WhisperDemo/Pods/Target Support Files/Whistle";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				23C6191F1A2C69DFFDAB5EDDFB94458C /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				ECB71ECC856930C98C3160F0E1A402CD /* Products */,
+				FBD5C8C9AAD4EF641A1A3C6709B0E043 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		998104F286C175F7A225F635BC3DC1A6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5DB391EC9687C17FC85454E6CA5544CD /* LICENSE.md */,
+				2B6F012365CAFFCB921343FC6338BFE0 /* README.md */,
+				A3391D6B24DF8EB1C25DD4E350AC726D /* Whistle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9CB22099DB9B4B824540672891A61DA4 /* Pods-WhisperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				68707EACD2604E6629EA2DBFF16770EA /* Pods-WhisperDemo.modulemap */,
+				629D435605390A979C5EE75233C94201 /* Pods-WhisperDemo-acknowledgements.markdown */,
+				2269FA4149DFBDAA3050F3BBF23BBF01 /* Pods-WhisperDemo-acknowledgements.plist */,
+				0E031BD9F5EB00FEB3485ADD93450117 /* Pods-WhisperDemo-dummy.m */,
+				8842EA39BF2958B8108CB088470C5C1B /* Pods-WhisperDemo-frameworks.sh */,
+				8E8CD66875DBA7BF11D2BE893DFF5088 /* Pods-WhisperDemo-Info.plist */,
+				D44325EF5C73DF4D120DD452236BE9E0 /* Pods-WhisperDemo-umbrella.h */,
+				213920C11AC528FE714B27E11D4F4295 /* Pods-WhisperDemo.debug.xcconfig */,
+				1B4FAFCF784374F38752E9DCEAEA2EC4 /* Pods-WhisperDemo.release.xcconfig */,
+			);
+			name = "Pods-WhisperDemo";
+			path = "Target Support Files/Pods-WhisperDemo";
+			sourceTree = "<group>";
+		};
+		B2975D14035424B558C285C9567D0241 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A6257B0C8195F3A02FC44EF0C7E9C9E6 /* ColorList.swift */,
+				1F17CA1E161916F1A10DD0BB720BCF3E /* FontList.swift */,
+			);
+			name = Configuration;
+			path = Source/Configuration;
+			sourceTree = "<group>";
+		};
+		ECB71ECC856930C98C3160F0E1A402CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F732E617FE1E456970C6653B067A3ED7 /* Pods_WhisperDemo.framework */,
+				E2A542B9F28BB53A7B52DFABE724810C /* Whistle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD5C8C9AAD4EF641A1A3C6709B0E043 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CB22099DB9B4B824540672891A61DA4 /* Pods-WhisperDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FBF6F92C626D61AF097978AC601D304 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FBC9536DA7C1375E87AF335D8DB8CA /* Whistle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95BF28119C16D0CF1EF3A3A5721F728 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A706AD4217DC61FE312374E7837F57 /* Pods-WhisperDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68444E67875F1E0A62C7A2EB5A108EAC /* Pods-WhisperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0177EF70655047DD308E4466A30B85C2 /* Build configuration list for PBXNativeTarget "Pods-WhisperDemo" */;
+			buildPhases = (
+				A95BF28119C16D0CF1EF3A3A5721F728 /* Headers */,
+				28FE867AF31A02A0910543050A3E56E2 /* Sources */,
+				E9E8A9D785C252BABD25BB3F9B102E6D /* Frameworks */,
+				803C491D4EA50F366C384E4C96796030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE5531D15B07DBC9D9977A81AC55E26 /* PBXTargetDependency */,
+			);
+			name = "Pods-WhisperDemo";
+			productName = "Pods-WhisperDemo";
+			productReference = F732E617FE1E456970C6653B067A3ED7 /* Pods_WhisperDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C049004E74F476F2D5D72EF35473D2B /* Whistle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2566279C8129870DCC1ECE12C87C4BC9 /* Build configuration list for PBXNativeTarget "Whistle" */;
+			buildPhases = (
+				0FBF6F92C626D61AF097978AC601D304 /* Headers */,
+				E798B9DE23DBD5A355DF28DC976E8E93 /* Sources */,
+				14E49B94F69DDAED4220CC230F28DF76 /* Frameworks */,
+				A6050E4C76951A10083FAAFE3AF10605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whistle;
+			productName = Whistle;
+			productReference = E2A542B9F28BB53A7B52DFABE724810C /* Whistle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ECB71ECC856930C98C3160F0E1A402CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68444E67875F1E0A62C7A2EB5A108EAC /* Pods-WhisperDemo */,
+				7C049004E74F476F2D5D72EF35473D2B /* Whistle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803C491D4EA50F366C384E4C96796030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050E4C76951A10083FAAFE3AF10605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FE867AF31A02A0910543050A3E56E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3C7E60435C3524BF0ACFB13297116D /* Pods-WhisperDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E798B9DE23DBD5A355DF28DC976E8E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A81FDF1C31AE041108D359779FDADD /* ColorList.swift in Sources */,
+				4B620EB0AD39352F96AD527733747FE4 /* Config.swift in Sources */,
+				AE4F58E84D089AB75ABA347DC487BD18 /* FontList.swift in Sources */,
+				4B9BD9053C2F57F522E63F2B7284CA52 /* Message.swift in Sources */,
+				B1D8AF3A39379978391D946A923EFD87 /* ShoutFactory.swift in Sources */,
+				C578774BB0C1D1902BF1516A38BE0634 /* Showing.swift in Sources */,
+				ECD25815CBEBEEE493DCB6810843277A /* UIView+Extensions.swift in Sources */,
+				DAC7A90BE185D577BCF3DA6DA4DEF908 /* WhisperFactory.swift in Sources */,
+				8FA996B1B88660DD32C28B23F9A27A51 /* WhisperView.swift in Sources */,
+				B71013256A696231BBD1679F7BA121D8 /* Whistle-dummy.m in Sources */,
+				908EBE91D7D25D9997D58C1FB79BB1D7 /* WhistleFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE5531D15B07DBC9D9977A81AC55E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Whistle;
+			target = 7C049004E74F476F2D5D72EF35473D2B /* Whistle */;
+			targetProxy = CB42A286ABFB9D384DAD314683AE11C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		496C3F322E71811A6901D00C775DC836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4FAFCF784374F38752E9DCEAEA2EC4 /* Pods-WhisperDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhisperDemo/Pods-WhisperDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhisperDemo/Pods-WhisperDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ADB2CB1BC022247A8EB3A920C9EDB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A548C964D7373A5F65EC83EE61991A53 /* Whistle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Whistle/Whistle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Whistle/Whistle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Whistle/Whistle.modulemap";
+				PRODUCT_MODULE_NAME = Whistle;
+				PRODUCT_NAME = Whistle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C00C1F9F6A4D2E2D732EF8D945523927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A548C964D7373A5F65EC83EE61991A53 /* Whistle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Whistle/Whistle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Whistle/Whistle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Whistle/Whistle.modulemap";
+				PRODUCT_MODULE_NAME = Whistle;
+				PRODUCT_NAME = Whistle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F86A6A924D6CDD21AFD2A4AC93E566C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213920C11AC528FE714B27E11D4F4295 /* Pods-WhisperDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhisperDemo/Pods-WhisperDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhisperDemo/Pods-WhisperDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0177EF70655047DD308E4466A30B85C2 /* Build configuration list for PBXNativeTarget "Pods-WhisperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86A6A924D6CDD21AFD2A4AC93E566C9 /* Debug */,
+				496C3F322E71811A6901D00C775DC836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2566279C8129870DCC1ECE12C87C4BC9 /* Build configuration list for PBXNativeTarget "Whistle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00C1F9F6A4D2E2D732EF8D945523927 /* Debug */,
+				7ADB2CB1BC022247A8EB3A920C9EDB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
