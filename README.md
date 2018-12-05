@@ -1,10 +1,4 @@
-⚠️ DEPRECATED, NO LONGER MAINTAINED
-
-![Whisper](https://github.com/hyperoslo/Whisper/blob/master/Resources/whisper-cover.png)
-
-![CircleCI](https://circleci.com/gh/hyperoslo/Whisper.png)
 [![Version](https://img.shields.io/cocoapods/v/Whisper.svg?style=flat)](http://cocoadocs.org/docsets/Whisper)
-[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Whisper.svg?style=flat)](http://cocoadocs.org/docsets/Whisper)
 [![Platform](https://img.shields.io/cocoapods/p/Whisper.svg?style=flat)](http://cocoadocs.org/docsets/Whisper)
 ![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
@@ -15,19 +9,19 @@ Break the silence of your UI, whispering, shouting or whistling at it. **Whisper
 
 #### Whispers
 
-![Whisper](https://github.com/hyperoslo/Whisper/blob/master/Resources/permanent-whisper.png)
+![Whisper](https://github.com/marceloreis13/Whisper/blob/master/Resources/permanent-whisper.png)
 
 Display a short message at the bottom of the navigation bar—this can be anything, from a "Great Job!" to an error message. It can have images or even a loader.
 
 #### Shouts
 
-![In-App](https://github.com/hyperoslo/Whisper/blob/master/Resources/in-app-notification.png)
+![In-App](https://github.com/marceloreis13/Whisper/blob/master/Resources/in-app-notification.png)
 
 Let users know that something happened inside the app with this beautiful customizable in-app notification.
 
 #### Whistles
 
-![Whistle](https://github.com/hyperoslo/Whisper/blob/master/Resources/whistle-information.png)
+![Whistle](https://github.com/marceloreis13/Whisper/blob/master/Resources/whistle-information.png)
 
 This is the smallest of all, a beautiful discretion in your UI.
 
@@ -82,8 +76,6 @@ Whisper.show(whistle: murmur, action: .present)
 Whisper.hide(whistleAfter: 3)
 ```
 
-If you want to use **Whisper** with Objective-C, you can find information about it [here](https://github.com/hyperoslo/Whisper/wiki/Using-Whisper-in-Objective-C).
-
 ## Installation
 
 **Whisper** is available through [CocoaPods](http://cocoapods.org). To install
@@ -96,7 +88,7 @@ pod 'Whisper'
 **Whisper** is also available through [Carthage](https://github.com/Carthage/Carthage). To install just write into your Cartfile:
 
 ```ruby
-github "hyperoslo/Whisper"
+github "marceloreis13/Whisper"
 ```
 
 ## Roadmap
@@ -115,8 +107,8 @@ In the future the idea is to keep improving and add some features:
 
 ## Contribute
 
-We would love for you to contribute to **Whisper**, check the [CONTRIBUTING](https://github.com/hyperoslo/Whisper/blob/master/CONTRIBUTING.md) file for more info.
+We would love for you to contribute to **Whisper**, check the [CONTRIBUTING](https://github.com/marceloreis13/Whisper/blob/master/CONTRIBUTING.md) file for more info.
 
 ## License
 
-**Whisper** is available under the MIT license. See the [LICENSE](https://github.com/hyperoslo/Whisper/blob/master/LICENSE.md) file for more info.
+**Whisper** is available under the MIT license. See the [LICENSE](https://github.com/marceloreis13/Whisper/blob/master/LICENSE.md) file for more info.
