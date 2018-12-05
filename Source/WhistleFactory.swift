@@ -14,11 +14,16 @@ open class WhistleFactory: UIViewController {
   public struct Dimensions {
 
     static var notchHeight: CGFloat {
-      if UIApplication.shared.statusBarFrame.height > 20 {
-        return 32.0
-      } else {
-        return 0.0
-      }
+        if UIDevice().userInterfaceIdiom == .phone {
+            switch UIScreen.main.nativeBounds.height {
+            case 2436:
+                return 32.0
+            default:
+                return 0
+            }
+        }
+        
+        return 0
     }
   }
 
