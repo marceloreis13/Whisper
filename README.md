@@ -43,20 +43,20 @@ The usage of the component is so simple, you just create a message in the case o
 let message = Message(title: "Enter your message here.", backgroundColor: .red)
 
 // Show and hide a message after delay
-Whisper.show(whisper: message, to: navigationController, action: .show)
+Whistle.show(whisper: message, to: navigationController, action: .show)
 
 // Present a permanent message
-Whisper.show(whisper: message, to: navigationController, action: .present)
+Whistle.show(whisper: message, to: navigationController, action: .present)
 
 // Hide a message
-Whisper.hide(whisperFrom: navigationController)
+Whistle.hide(whisperFrom: navigationController)
 ```
 
 ##### For a Shout:
 
 ```swift
 let announcement = Announcement(title: "Your title", subtitle: "Your subtitle", image: UIImage(named: "avatar"))
-Whisper.show(shout: announcement, to: navigationController, completion: {
+Whistle.show(shout: announcement, to: navigationController, completion: {
   print("The shout was silent.")
 })
 ```
@@ -82,13 +82,7 @@ Whisper.hide(whistleAfter: 3)
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Whisper'
-```
-
-**Whisper** is also available through [Carthage](https://github.com/Carthage/Carthage). To install just write into your Cartfile:
-
-```ruby
-github "marceloreis13/Whisper"
+pod 'Whistle'
 ```
 
 ## Roadmap
