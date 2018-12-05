@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Whistle"
   s.summary          = "Whisper is a component that will make the task of display messages and in-app notifications simple."
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.homepage         = "https://github.com/marceloreis13/Whisper"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "me@marcelo.cc" }
