@@ -67,13 +67,13 @@ Whistle.show(shout: announcement, to: navigationController, completion: {
 let murmur = Murmur(title: "This is a small whistle...")
 
 // Show and hide a message after delay
-Whisper.show(whistle: murmur, action: .show(0.5))
+Whistle.show(whistle: murmur, action: .show(0.5))
 
 // Present a permanent status bar message
-Whisper.show(whistle: murmur, action: .present)
+Whistle.show(whistle: murmur, action: .present)
 
 // Hide a message
-Whisper.hide(whistleAfter: 3)
+Whistle.hide(whistleAfter: 3)
 ```
 
 ## Installation
@@ -97,7 +97,7 @@ In the future the idea is to keep improving and add some features:
 
 ## Author
 
-[Hyper](http://hyper.no) made this with ❤️
+[Hyper](http://linkedin.com/in/marceloreis13/) made this with ❤️
 
 ## Contribute
 
