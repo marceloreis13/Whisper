@@ -1,7 +1,7 @@
-[![Version](https://img.shields.io/cocoapods/v/Whisper.svg?style=flat)](http://cocoadocs.org/docsets/Whisper)
-[![License](https://img.shields.io/cocoapods/l/Whisper.svg?style=flat)](http://cocoadocs.org/docsets/Whisper)
-[![Platform](https://img.shields.io/cocoapods/p/Whisper.svg?style=flat)](http://cocoadocs.org/docsets/Whisper)
-![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
+[![Version](https://img.shields.io/cocoapods/v/Whistle.svg?style=flat)](https://cocoapods.org/pods/Whistle)
+[![License](https://img.shields.io/cocoapods/l/Whistle.svg?style=flat)](https://cocoapods.org/pods/Whistle)
+[![Platform](https://img.shields.io/cocoapods/p/Whistle.svg?style=flat)](https://cocoapods.org/pods/Whistle)
+![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
 
 ## Description :leaves:
 
