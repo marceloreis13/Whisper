@@ -97,7 +97,7 @@ In the future the idea is to keep improving and add some features:
 
 ## Author
 
-[Hyper](http://linkedin.com/in/marceloreis13/) made this with ❤️
+[Marcelo Reis](http://linkedin.com/in/marceloreis13/)
 
 ## Contribute
 
